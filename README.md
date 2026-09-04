@@ -1,1 +1,1 @@
-D climate model for Essunfeld et al. 2026
+1D climate model to replicate surface temperature calculation from Essunfeld et al. 2026
