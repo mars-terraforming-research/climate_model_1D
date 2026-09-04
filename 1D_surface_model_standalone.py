@@ -1,4 +1,4 @@
-current_path='/home/akling/Code/climate_model_1D'
+current_path='/path_to/climate_model_1D'
 import sys; sys.path.append(current_path)
 import matplotlib.pyplot as plt
 import numpy as np
@@ -53,7 +53,7 @@ A=-2.63898123;B=0.145363974;C=8.36913082e-05
 IRD_T_quad=lambda T: A+ B*T+C*T**2
 
 
-d_sail=pd.read_csv('/home/akling/Data/sfc_tempk/marsyear_vacuum_g18_96per_sol.csv')
+d_sail=pd.read_csv('/path_to/marsyear_vacuum_g18_96per_sol.csv')
 LT_sail=d_sail['lst_h'].values[0:96]
 LT_sail_all=d_sail['lst_h']
 areo_sail=d_sail['solar_longitude_deg'].values
